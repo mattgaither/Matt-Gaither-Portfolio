@@ -99,6 +99,16 @@ section {
     justify-content: center;
 }
 
+.resume{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.resume div{
+    font-size: larger
+}
+
 /* This is the footer */
 footer {
     padding: 50px 30px;
@@ -117,6 +127,7 @@ footer nav ul {
 
 footer li{
     margin: 50 160 0 0;
+    font-size: larger;
     align-items: center;
     justify-content: center;
 }
