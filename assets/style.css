@@ -58,13 +58,13 @@ header nav ul li a {
 
 .avatar {
     border-radius: 50%;
-    width: 350px;
+    width: 375px;
     height: 350px;
     margin-left: 100;
 }
 
 section {
-    padding: 50;
+    padding: 30;
 }
 
 /* added flex to the container and the article */
