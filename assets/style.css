@@ -16,6 +16,10 @@ body {
     font-size: large;
 }
 
+section {
+    padding: 30;
+}
+/* start ofn the header and intro setions */
 header {
     padding: 40px 40px;
     background-color: var(--secondary-color);
@@ -35,7 +39,6 @@ header nav ul {
     align-items: center;
     list-style: none;
     flex-wrap: wrap;
-    
 }
 
 header nav ul li a {
@@ -55,15 +58,31 @@ header nav ul li a {
     text-align: right;
 }
 
+/* start of the about me section */
+.about{
+    text-align: center;
+}
+
+div .container{
+    margin: 30;
+}
+
+div .container p{
+    display: flex;
+    align-self: flex-end;
+
+}
+
+div .container img{
+    align-self: flex-start;
+ }
+
+/* This styles the avatar profile photo */
 .avatar {
     border-radius: 50%;
     width: 375px;
     height: 350px;
     margin-left: 100;
-}
-
-section {
-    padding: 30;
 }
 
 /* added flex to the container and the article */
@@ -99,6 +118,7 @@ section {
     justify-content: center;
 }
 
+/* This is the resume section */
 .resume{
     display: flex;
     flex-wrap: wrap;
